@@ -18,12 +18,20 @@ body{
     background: hsl(277, 64%, 61%);
     border-radius: 0px 10px 10px 0px;
 }
+#imgDesktop{
+    display: block;
+}
+#imgMobile{
+    display: none;
+}
+
 img{
     width: 100%;
     height: 100%;
     filter: opacity(0.6);
     border-radius: 0px 10px 10px 0px;
 }
+
 .card{
     margin: auto;
     background-color: hsl(244, 38%, 16%);
@@ -73,5 +81,43 @@ p{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color:hsla(0, 0%, 100%, 0.75);
-    
+}
+
+
+
+@media all and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #imgDesktop {display: none;}
+    #imgMobile {display: block;}
+
+    .imagem{
+        background: hsl(277, 64%, 61%);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        filter: opacity(0.6);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .card{
+        background-color: hsl(244, 38%, 16%);
+        color: hsl(0, 0%, 100%);
+        transition: 0.3s;
+        width: 50%;
+        height: 50%;
+        border-radius: 10px;
+    }
+    .texto{
+        color:  hsla(0, 0%, 100%, 0.75);
+        width: 50%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
 }
