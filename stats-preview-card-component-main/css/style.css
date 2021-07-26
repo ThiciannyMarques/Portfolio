@@ -5,23 +5,25 @@ body{
 }
 .principal{
     margin-top: 7%;
+ 
 }
 .container{
     display: flex;
     flex-direction: row;
-    padding: 5%;
     margin: auto;
-    border-radius: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 .imagem{
     float: right;
-    padding-left: 3%;
+    background: hsl(277, 64%, 61%);
+    border-radius: 0px 10px 10px 0px;
 }
-.imagem > img{
+img{
     width: 100%;
     height: 100%;
-    border-radius: 5%;
-    filter: ;
+    filter: opacity(0.6);
+    border-radius: 0px 10px 10px 0px;
 }
 .card{
     margin: auto;
@@ -30,19 +32,47 @@ body{
     transition: 0.3s;
     width: 50%;
     height: 50%;
+    border-radius: 10px;
 }
 .texto{
     color:  hsla(0, 0%, 100%, 0.75);
-    margin: auto;
     float: left;
     width: 50%;
-    padding-left: 1%;
-    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    padding-left: 3%;
 }
 
 .texto>.dados{
-    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
 }
 .texto>.dados > span{
     color:  hsla(0, 0%, 100%, 0.6);
+}
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+section{
+    padding: 5%;
+    text-align: center;
+}
+section > span{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    
 }
