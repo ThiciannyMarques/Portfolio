@@ -1,1 +1,5 @@
-remover = document.querySelector('.d-none')
+document.querySelectorAll('.d-none').classList.remove('.d-none')
+
+function click(){
+  
+}
