@@ -1,32 +1,28 @@
-.container{
-    width: 60%;
-    margin-bottom: 5%;
+body{
+    background-color: rgba(8, 5, 22, 0.924);
+    color: #fff;
 }
-.card{
+
+.navbar-principal{
+    position: fixed;
+    background-color: #fff;
     width: 100%;
-    height: 100%;
 }
-.container > .row > a{
-    margin-bottom: 3%;
-}
-.card > img{
-    width: 100%;
-    height: 100%;
-}
-.navbar{
-    position:static;
+.dropdown-menu{
+    background-color: rgba(253, 253, 253, 0.945) ;
 }
 
 .load{
     animation: slide 2s;
 }
 .slider{ 
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
-    animation: slide 40s infinite;
+    animation: slide 20s infinite;
 }
 .outer{
     color: #fff;
@@ -40,9 +36,8 @@
     transform: translate(-50%, -50%);
     position: absolute;
    
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
-
 @keyframes slide{
         0%, 100%{
             background-image: url(https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg);
@@ -51,4 +46,60 @@
             background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200630/pngtree-neon-double-color-futuristic-frame-colorful-background-image_340466.jpg);
         }
 
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    
+    
+}
+.btn{
+    margin: auto;
+    border: 1px solid rgb(97, 54, 138);
+}
+.btn:hover{
+    background-image: linear-gradient(90deg, #0a12fa86 0%, #8915f580 49%, #b009de91 80%, #0a12fa88 100%);
+    animation: btn 20s  infinite;
+    border: 1px solid navy;
+}
+@keyframes btn {
+    to{
+        background-position: 20vw;
+    }
+}
+.container > .row > a{
+    margin-bottom: 2%;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+.card > img{
+    width: 100%;
+    height: 100%;
+}
+
+.contatos{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    padding-top: 10%;
+}
+.labelContato{
+    margin-top: 3%;
+    margin-left: 5%;  
+}
+.labelContato > b{
+    font-size: 120%;
+}
+
+.navbar-footer{
+    bottom: 0%;
 }
