@@ -87,7 +87,7 @@ body{
 
 .contatos{
     width: 80%;
-    height: 70vh;
+    height: 80vh;
     margin: auto;
     padding-top: 10%;
 }
@@ -102,4 +102,6 @@ body{
 .navbar-footer{
     bottom: 0%;
 }
-
+.d-none{
+    margin: auto;
+}
