@@ -5,7 +5,7 @@ body{
 
 .navbar-principal{
     position: fixed;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 .dropdown-menu{
