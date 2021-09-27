@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+}
+.principal{
+    padding: 5%;
+}
+main{
+    position:absolute;
+    text-align: center;
+    background-color: azure;
+    margin-top: -30%;
+    margin-left: 35%;
+    height: 33rem;
+    width: 22rem;
+    border-radius: 2%;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+}
+h5{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0%;
+}
+p{
+    margin-top: 0;
+    font-size: 16px;
+}
+svg{
+    margin-top: 0px;
+    width: 100%;
+}
+
+.card-img{
+    height: 11rem;
+    width: 22rem;
+}
+.card-img>img{
+    border-radius: 2%;
+}
+.preco{
+    margin-top: 7%;
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    text-align:justify;
+    font-size: 16px;
+}
+.preco>img{
+    float: left;
+    margin-right: 8%;
+}
+.preco>a{
+    float: right;
+    margin-top: -5%;
+    font-weight: 300;
+}
+.compra{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 50px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
