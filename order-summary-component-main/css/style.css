@@ -81,11 +81,19 @@ button{
     main{
         position:absolute;
         text-align: center;
-        background-color: azure;
-        margin-top: -30%;
-        margin-left: 45%;
-        height: 33rem;
-        width: 22rem;
+        background-color: azure;      
+        margin: auto;
+        height: 30rem;
+        width: 20rem;
         border-radius: 2%;
+    }
+    .card-img{
+        height: 10rem;
+        width: 20rem;
+    }
+    .card-img>img{
+        border-radius: 2%;
+        width: 100%;
+        height: 100%;
     }
 }
