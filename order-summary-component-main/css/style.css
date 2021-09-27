@@ -76,3 +76,16 @@ button{
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media all and (max-width: 400px) {
+    main{
+        position:absolute;
+        text-align: center;
+        background-color: azure;
+        margin-top: -30%;
+        margin-left: 45%;
+        height: 33rem;
+        width: 22rem;
+        border-radius: 2%;
+    }
+}
