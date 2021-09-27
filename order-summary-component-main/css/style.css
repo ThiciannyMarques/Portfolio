@@ -10,8 +10,8 @@ main{
     position:absolute;
     text-align: center;
     background-color: azure;
-    margin-top: -30%;
-    margin-left: 35%;
+    margin-top: -25%;
+    margin-left: 40%;
     height: 33rem;
     width: 22rem;
     border-radius: 2%;
@@ -27,7 +27,7 @@ p{
     margin-top: 0;
     font-size: 16px;
 }
-svg{
+#svg{
     margin-top: 0px;
     width: 100%;
 }
